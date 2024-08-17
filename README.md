@@ -68,16 +68,4 @@ Task 3: Creating an interactive application
 
 1. I used a Flask web framework.
 2. BERT method was chosen to the app.
-3.
-
-
-
-
-
-
-Task 3: Creating an interactive application
-אפליקציה
-Running on http://127.0.0.1:5000/
-ברגע שמריצים על ג'ופיטר
-BeautifulSoup השתמשתי בטול
-מתוך הדוקימנציה הזו - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+3. The app run on http://127.0.0.1:5000/
