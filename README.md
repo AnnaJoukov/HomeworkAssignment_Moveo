@@ -45,10 +45,21 @@ One key advantage of LDA is that it is an unsupervised learning method, allowing
 One of the primary disadvantages of LDA is that it can sometimes generate ambiguous or incoherent topics, particularly when the data is noisy, sparse, or diverse.
 The multiple iterations and optimization steps required to estimate topic distributions can demand significant resources and memory.
 
-2. BERT Method - imporent notes:
+3. BERT Method - imporent notes:
+   3.1 On my PC it took about 5 to 10 minutes to run the model.
+   3.2 During the running process , errors will appear such as a "parameter name containing 'beta' will be internally changed to 'bias'...". As far as I 
+   understand, this is talking about the update of the package and does not interfere with the running of the model.
+   3.3  In this code, embeddings are powerful tools that allow you to represent complex text data in a meaningful, dense, and compact form.
+   3.4 After the grouping process, the generated topics (group titles) were not clear or coherent, as seen in examples like "Group 1 Title: The gcp message  
+       rotocol gcp. method according to claim comprises routing said." Despite the syntactical issues in the titles, this model still produced better overall 
+       results compared to the other models.
 
+BERT excels in understanding context through bidirectional attention, making it highly effective for complex NLP tasks. Its adaptability allows for fine-tuning across various applications, such as semantic search, resulting in high accuracy. However, BERT is computationally expensive, requiring substantial resources for training and inference. Additionally, it is limited by its reliance on specific attention patterns, which can lead to less optimal results.
+The bidirectional attention mechanism in BERT allows the model to consider the context of a word by looking at both the words before and after it in a sentence. Unlike traditional models that process text in one direction (left-to-right or right-to-left), BERT processes the entire sentence at once, enabling it to capture the full context and understand the relationships between words more effectively.
+https://www.yext.com/blog/bert-strengths-and-weaknesses-34eabc48587b
+https://pareshmpatel.com/bert-or-chatgpt-the-pros-and-cons/
 
-   
+For creating an interactive application, BERT would be the best choice among the three models. BERT provides the most accurate and contextually relevant groupings and topic titles due to its deep understanding of language. Despite some challenges with syntactical coherence in the titles, BERT's results are generally more meaningful and reliable compared to LDA or K-Means. This will lead to a better user experience in my application, where users can see more relevant and contextually accurate groupings and topics.While it may be computationally intensive, the benefits in terms of accuracy and relevance make it the most suitable option for the application.
 
 
 
