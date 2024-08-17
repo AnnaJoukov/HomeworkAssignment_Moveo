@@ -69,3 +69,5 @@ Task 3: Creating an interactive application
 1. I used a Flask web framework.
 2. BERT method was chosen to the app.
 3. The app run on http://127.0.0.1:5000/
+4. I built my app using documentation from this site::
+ https://medium.com/@anoopjohny2000/building-a-question-answering-web-application-with-flask-and-transformers-9af2f69ef33d
