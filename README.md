@@ -26,6 +26,7 @@ I understand that it could have been executed in a more efficient and organized 
   1.2 To evaluate the quality of the model, I used the Silhouette Score, which resulted in a score of 0.181.A Silhouette Score of 0.181 suggests that the clusters formed by the model are not well-separated and 
   may overlap significantly.I attempted to improve the results by adjusting the parameters(num_clusters) and enhancing the preprocessing steps, but these efforts did not significantly improve the outcome.
 K-means clustering has several limitations that can impact its effectiveness, including its sensitivity to the choice of the number of clusters (k), the initial placement of centroids, and the shape and size of the clusters. Determining the optimal k can be challenging, and different initial conditions may lead to different outcomes. The algorithm also assumes that clusters are spherical with similar variances, making it less suitable for complex or irregular clusters.
+The algorithm did generate topics (group titles) for each group, but it simply combined selected words into sentences that were not coherent. This issue might occur because the algorithm relies heavily on the most frequent or prominent words within each group, without considering their contextual relationships or the overall meaning.
 
 
 
