@@ -1,0 +1,49 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "147ff9df-37ac-45a5-9a8e-00f85714e599",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#requirements.txt file\n",
+    "numpy==1.26.0\n",
+    "scikit-learn==1.5.1\n",
+    "pandas==2.2.2\n",
+    "torch==2.0.1\n",
+    "matplotlib==3.6.2\n",
+    "gensim==4.3.1\n",
+    "transformers==4.33.2\n",
+    "sentence-transformers==2.2.2\n",
+    "datasets==2.14.4\n",
+    "ipywidgets==8.1.0\n",
+    "pyarrow==12.0.1\n",
+    "flask==2.3.2\n",
+    "nltk==3.8.1\n",
+    "random-word==1.0.8"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "torch_kernel",
+   "language": "python",
+   "name": "torch_kernel"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
