@@ -53,6 +53,8 @@ The multiple iterations and optimization steps required to estimate topic distri
    3.4 After the grouping process, the generated topics (group titles) were not clear or coherent, as seen in examples like "Group 1 Title: The gcp message  
        rotocol gcp. method according to claim comprises routing said." Despite the syntactical issues in the titles, this model still produced better overall 
        results compared to the other models.
+   3.5 Another issue with the model is that it fails to recognize identical words consistently. For instance, in group 4, the title repeats the word "output" 
+       multiple times, indicating a lack of understanding that these instances refer to the same concept.
 
 BERT excels in understanding context through bidirectional attention, making it highly effective for complex NLP tasks. Its adaptability allows for fine-tuning across various applications, such as semantic search, resulting in high accuracy. However, BERT is computationally expensive, requiring substantial resources for training and inference. Additionally, it is limited by its reliance on specific attention patterns, which can lead to less optimal results.
 The bidirectional attention mechanism in BERT allows the model to consider the context of a word by looking at both the words before and after it in a sentence. Unlike traditional models that process text in one direction (left-to-right or right-to-left), BERT processes the entire sentence at once, enabling it to capture the full context and understand the relationships between words more effectively.
