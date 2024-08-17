@@ -8,7 +8,7 @@ A list of patent URLs is defined, and the claims are extracted from each URL usi
 The preprocess_claims function processes the extracted claims by converting text to lowercase, removing non-alphabetic characters, tokenizing the text, lemmatizing the words, and removing stopwords.
 Finally, all the extracted claims are processed, resulting in a list of preprocessed text.
 I took the documentation for this part of the code from the following website: https://www.crummy.com/software/BeautifulSoup/bs4/doc/.
------------------------------------------------------------------------------
+
 Task 2: Grouping claims by topic
 I used three different methods for grouping paragraphs:
 
