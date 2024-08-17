@@ -64,6 +64,11 @@ https://pareshmpatel.com/bert-or-chatgpt-the-pros-and-cons/
 For creating an interactive application, BERT would be the best choice among the three models. BERT provides the most accurate and contextually relevant groupings and topic titles due to its deep understanding of language. Despite some challenges with syntactical coherence in the titles, BERT's results are generally more meaningful and reliable compared to LDA or K-Means. This will lead to a better user experience in my application, where users can see more relevant and contextually accurate groupings and topics.While it may be computationally intensive, the benefits in terms of accuracy and relevance make it the most suitable option for the application.
 
 
+Task 3: Creating an interactive application
+
+1. I used a Flask web framework.
+2. BERT method was chosen to the app.
+3.
 
 
 
