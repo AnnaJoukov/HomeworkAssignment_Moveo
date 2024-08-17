@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <p>Number of Topics: {{ num_clusters }}</p>
+    <ul>
+        {% for group in groups %}
+        <li>
+            <strong>Title: {{ group.title }}</strong>
+            <ul>
+                <li>Number of Claims: {{ group.number_of_claims }}</li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/">Analyze again</a>
+</body>
+</html>
